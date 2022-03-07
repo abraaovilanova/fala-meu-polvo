@@ -1,7 +1,13 @@
 import React, { useState } from 'react'
+import parse from 'html-react-parser'
 import './TextCard.css'
 
 export default ({mainText, mainTag, textIndex, handleSwipe, textListLength, cardColor, handleClick}) => {
+
+    const getTheHTMLMainText = (stringText) => {
+        return parse(stringText.replace(/\$([^\$]*[^\$]*)\$/g, '<span className="teste2">$1&nbsp</span>').replace(' -','<br />-'))
+
+    }
     
     const getStorySquare = (total) => {
         let squareDiv = []
@@ -35,7 +41,11 @@ export default ({mainText, mainTag, textIndex, handleSwipe, textListLength, card
                     ></div>
                 </div>
             <div className="text-card">
-                <h2 className="text-card__main-text">{mainText}</h2>
+                <div className="text-card__main-text">
+                    <h2>
+                        {getTheHTMLMainText(mainText)}
+                    </h2>
+                </div>
                 <div className="text-card__btn-group">
                     <p className="text-card__main-tag">#{mainTag}</p>
                     <button className="text-card_inf-btn">+info</button>

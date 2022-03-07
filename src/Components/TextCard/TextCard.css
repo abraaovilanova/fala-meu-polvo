@@ -17,22 +17,25 @@
 
 .text-card__main-text{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     text-align: center;
     margin: 3.5rem 0.8rem;
     min-height: 30rem;
-    /* color: rgba(255, 255, 255, 0.6); */
-    color: rgba(255, 255, 255, 1);
+
+}
+
+.text-card__main-text h2{
+    color: rgba(255, 255, 255, 0.6);
     font-family: 'Caveat';
     font-weight: 600;
     font-size: 3.5rem;
 }
 
-.text-card__main-text h2{
-    vertical-align: middle;
-
+.text-card__main-text span{
+    color: rgba(255, 255, 255, 1);
 }
+
 
 .text-card__main-text span{
     color: white;
