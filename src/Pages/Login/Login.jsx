@@ -1,5 +1,13 @@
 export default () => {
     return (
-        <h1>Login Page</h1>
+        <div className="Login">
+            <form>
+                <label>Usuário</label>
+                <input type="text" />
+
+                <label>Senha</label>
+                <input type="password" />
+            </form>
+        </div>
     )
 }

@@ -2,7 +2,7 @@ import './TagCard.css'
 
 export default ({ tagName ,progress=20, bgColor, handleClick}) => {
     return(
-        <div className="card" onClick={handleClick} >
+        <div className="tag-card" onClick={handleClick} >
            <header style={{background: bgColor}}>
                <h2>{tagName}</h2>
            </header>

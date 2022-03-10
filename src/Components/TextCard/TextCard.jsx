@@ -2,10 +2,12 @@ import React, { useState } from 'react'
 import parse from 'html-react-parser'
 import './TextCard.css'
 
+
 export default ({mainText, mainTag, textIndex, handleSwipe, textListLength, cardColor, handleClick}) => {
 
+
     const getTheHTMLMainText = (stringText) => {
-        return parse(stringText.replace(/\$([^\$]*[^\$]*)\$/g, '<span className="teste2">$1&nbsp</span>').replace(' -','<br />-'))
+        return parse(stringText.replace(/\*([^\*]*[^\*]*)\*/g, '<span className="teste2">$1&nbsp</span>').replace(' -','<br />-'))
 
     }
     
@@ -43,7 +45,7 @@ export default ({mainText, mainTag, textIndex, handleSwipe, textListLength, card
             <div className="text-card">
                 <div className="text-card__main-text">
                     <h2>
-                        {getTheHTMLMainText(mainText)}
+                        {getTheHTMLMainText(mainText.text)}
                     </h2>
                 </div>
                 <div className="text-card__btn-group">
