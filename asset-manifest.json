@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fala-meu-polvo/static/css/main.99589683.css",
-    "main.js": "/fala-meu-polvo/static/js/main.7bd0abc2.js",
+    "main.js": "/fala-meu-polvo/static/js/main.0ececa06.js",
     "static/js/787.cda612ba.chunk.js": "/fala-meu-polvo/static/js/787.cda612ba.chunk.js",
     "index.html": "/fala-meu-polvo/index.html",
     "main.99589683.css.map": "/fala-meu-polvo/static/css/main.99589683.css.map",
-    "main.7bd0abc2.js.map": "/fala-meu-polvo/static/js/main.7bd0abc2.js.map",
+    "main.0ececa06.js.map": "/fala-meu-polvo/static/js/main.0ececa06.js.map",
     "787.cda612ba.chunk.js.map": "/fala-meu-polvo/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99589683.css",
-    "static/js/main.7bd0abc2.js"
+    "static/js/main.0ececa06.js"
   ]
 }
