@@ -55,9 +55,18 @@
             "font":"Grammaire Progressive du Français"
         },
         {
-            "text":"-*Vous êtes d'où?. -*Je suis* d'Athènes.",
+            "text":"-*Vous êtes* d'où?. -*Je suis* d'Athènes.",
             "info":"« De » + voyelle devient «d'»",
             "id":"7",
+            "lang":"french",
+            "mainTag":"Le verbe «Être»",
+            "level":"intermédiaire",
+            "font":"Grammaire Progressive du Français"
+        },
+        {
+            "text":"-Vous êtes d'où? -*Je suis* anglais. Je suis de Londres. Et vous, vous êtes d'où? -*Je suis* d'Athènes, *je suis* grec.",
+            "info":"",
+            "id":"8",
             "lang":"french",
             "mainTag":"Le verbe «Être»",
             "level":"intermédiaire",

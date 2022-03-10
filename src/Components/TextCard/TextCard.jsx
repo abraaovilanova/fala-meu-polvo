@@ -7,7 +7,7 @@ export default ({mainText, mainTag, textIndex, handleSwipe, textListLength, card
 
 
     const getTheHTMLMainText = (stringText) => {
-        return parse(stringText.replace(/\*([^\*]*[^\*]*)\*/g, '<span className="teste2">$1&nbsp</span>').replace(' -','<br />-'))
+        return parse(stringText.replace(/\*([^\*]*[^\*]*)\*/g, '<span className="teste2">$1&nbsp</span>').replace(/\s\-/g,'<br />-'))
 
     }
     
